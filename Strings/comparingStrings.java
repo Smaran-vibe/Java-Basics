@@ -11,7 +11,7 @@ public class comparingStrings {
         System.out.println("Enter the second String: ");
         String second = input.nextLine();
 
-        if (first == second){
+        if (first.trim().equals(second.trim())){
             System.out.println("The string is equal.");
         }
         else{
